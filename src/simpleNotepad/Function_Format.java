@@ -30,6 +30,7 @@ public class Function_Format {
 		arial = new Font("Arial",Font.PLAIN, fontSize);
 		comicSansMS = new Font("Comic Sans MS",Font.PLAIN, fontSize);
 		timesNewRoman = new Font("Times New Roman",Font.PLAIN, fontSize);
+		setFont(selectedFont);
 	}
 	public void setFont(String font) {
 		selectedFont = font;
